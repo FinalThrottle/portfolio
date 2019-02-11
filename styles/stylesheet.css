@@ -3,21 +3,31 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cabin', sans-serif;
   color: white;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 nav {
   text-align: center;
 }
-nav:hover {
-  background-color: black;
-  font-size: 25px;
+
+a {
+  color: white;
+  text-decoration: none;
 }
+
 h1 {
   color: white;
   text-align: center;
   font-size: 70px;
 }
+
 h3 {
   color: 	#C7C1FF;
   font-style: oblique;
@@ -27,21 +37,21 @@ h3 {
   letter-spacing: -1.5px;
   font-size: 25px;
 }
+
 .onehalf {
   letter-spacing: -1.4px;
   font-size: 25px;
 }
+
 .two {
   letter-spacing: -1.4px;
   font-size: 25px;
 }
+
 .footer {
   font-size: 15px;
 }
-.footer:hover {
-  background-color: black;
-  font-size: 25px;
-}
+
 img {
   border-style: solid;
   border-color: #C7C1FF;
