@@ -1,15 +1,13 @@
 body {
-  background-image: url("../moon.jpg");
+  background-image: url("../wood.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  font-family: 'Cabin', sans-serif;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -18,44 +16,82 @@ nav {
 }
 
 a {
-  color: white;
+  color: black;
+  margin: 0.5em;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.5s;
+  transition-property: all;
+}
+
+a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+p {
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 1em;
+  width: 70%;
+  background-color: rgba(255,255,255,0.7);
+  transition: all 0.5s;
+  transition-property: all;
+}
+
+p.one {
+  color: black;
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-  color: 	#C7C1FF;
   font-style: oblique;
   font-size: 40px;
-}
-.one {
-  letter-spacing: -1.5px;
-  font-size: 25px;
-}
-
-.onehalf {
-  letter-spacing: -1.4px;
-  font-size: 25px;
-}
-
-.two {
-  letter-spacing: -1.4px;
-  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
-  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.5s;
+  transition-property: all;
+}
+
+.footer:hover {
+  font-size: 25px;
+  transform: rotate(5deg);
+}
+
+p.footer {
+  border: 0px solid;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+p:nth-child(2) {
+  background: rgba(209, 209, 209, 0.7);
 }
 
 img {
   border-style: solid;
   border-color: #C7C1FF;
-  border-width: 1px;
+  border-width: 0px;
   border-radius: 50%;
+  width: 100px;
+  float: none;
+  transition: all 1s;
+  transition-property: all;
+}
+
+img:hover {
   width: 300px;
+  height: 300px;
 }
