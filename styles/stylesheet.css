@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  display: flex;
+  display:inline-flex;
   align-items: flex-start;
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: #29C8FB;
   font-size: 25px;
 }
 
@@ -90,11 +90,54 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  transition: all 1s;
+  transition: all 0.5s;
   transition-property: all;
 }
 
 img:hover {
   width: 300px;
   height: 300px;
+}
+
+/*--Coding for form inputs.*/
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+fieldset {
+  border: solid;
+  border-radius: 10px;
+  border-width: thin;
+  margin: 1rem;
+}
+
+fieldset input {
+  display: inline;
+}
+
+input[type=submit] {
+  background-color: #29C8FB;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=text] {
+  -webkit-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 20%;
+}
+
+input {
+  width: 15%;
+  border-radius: 5px;
 }

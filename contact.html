@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+
+    <body>
+
+      <header>
+        <h1>Portfolio</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about-me.html">About Me</a>
+          <a href="projects.html">Projects</a>
+          <a href="styles/stylesheet.css">Stylesheet</a>
+          <a href="contact.html">Contact Me</a>
+        </nav>
+      </header>
+
+      <h3>Questions? Please use the form below. </h3>
+
+      <form method="POST">
+        <fieldset>
+          <legend>Name</legend>
+          First Name: <input type="text"><br>
+          Last Name: <input type="text"><br>
+          <label>Email Address
+            <input type="email" name="applicantEmail">
+          </label><br>
+          Phone Number: <input type="text">
+        </fieldset>
+
+        <fieldset>
+          <legend>Is this related to HTML5 100 A?</legend>
+          <label>
+            <input type="radio" name="special" value="yes">Yes
+          </label>
+          <label>
+            <input type="radio" name="special" value="no">No
+          </label>
+        </fieldset>
+
+        <label>Subject
+          <input type="text" name="applicantSubject">
+        </label>
+
+
+        <label>Favorite type of fries?</label>
+        <select name="fries">
+          <option value=""></option>
+          <option value="crinkle">Crinkle-cut Fries</option>
+          <option value="curly">Curly Fries</option>
+          <option value="shoe">Shoestring Fries</option>
+          <option value="steak">Steak-cut Fries</option>
+          <option value="waffle">Waffle Fries</option>
+        </select>
+
+        <label>Comment Box
+          <textarea name="applicantReason" rows="8" cols="80">Please enter text here.
+          </textarea>
+        </label>
+
+          <input type="submit" value="Submit">
+      </form>
+
+      <footer>
+        <p class="footer">Page built by Alex Lam, 2019.</p>
+      </footer>
+
+    </body>
+
+  </html>
